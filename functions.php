@@ -1,6 +1,9 @@
 <?php
-//add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
-//function my_theme_enqueue_styles() {
-//    wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
-//
-//}
+require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+
+wp_enqueue_style( 'style', get_stylesheet_uri() );
+
+function register_menus() {
+    register_nav_menu('main-menu',__( 'Main Menu', 'vg-trading' ));
+}
+add_action( 'init', 'register_menus' );
