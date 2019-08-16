@@ -13,7 +13,7 @@
 body {
     font-family: Helvetica, monospace;
     padding-top: 36px;
-    color: silver;
+    color: #000000;
 }
 H1, H2, H3, H4 {
     font-family: "Baskerville Old Face", serif;
@@ -22,6 +22,7 @@ H1, H2, H3, H4 {
 p {
     font-family: "Gill Sans MT", serif;
     font-size: 1.3rem;
+    color: #707070;
 }
 #page-content {
     min-height: 100vh;
@@ -52,6 +53,10 @@ nav.main-menu li {
 }
 .navbar-brand img {
     height: 50px;
+}
+
+.red-divider-small {
+    border-bottom: 5px solid red;
 }
 
 footer {

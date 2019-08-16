@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+    <title><?php bloginfo('name'); ?><?= wp_title( '&raquo;') ?></title>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <link rel="profile" href="http://gmpg.org/xfn/11" />
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -15,7 +16,7 @@
     <?php wp_head(); ?>
 </head>
 <body>
-<div class="container-fluid">
+<div class="container">
 
     <!-- Main Menu -->
 <nav class="navbar navbar-expand-md navbar-light bg-light main-menu fixed-top" role="navigation">
