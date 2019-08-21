@@ -20,7 +20,7 @@ H1, H2, H3, H4 {
     color: #000000;
 }
 p {
-    font-family: "Gill Sans MT", serif;
+    font-family: "Gill Sans", "Gill Sans MT", "Calibri", sans-serif;
     font-size: 1.3rem;
     color: #707070;
 }
@@ -67,6 +67,38 @@ footer {
     font-size: 1.2rem;
     border-top: 1px solid silver;
     padding-top: 30px;
+}
+
+#main-video {
+    height: 600px;
+}
+#btn-asc, #btn-is, #btn-ba {
+    opacity: .8;
+}
+.wpforms-submit-container {
+    text-align: center;
+}
+#wpforms-submit-89 {
+    background: #424242;
+    color: silver;
+}
+#wpforms-submit-166 {
+    width: 100%;
+}
+
+#container-social-media .vce-single-image-inner {
+    width: 50px !important;
+}
+
+#container-products .vce-single-image-inner {
+    width: 75px !important;
+}
+#container-value-added-products .vce-single-image-inner {
+    width: 75px !important;
+}
+
+#container-gallery-title {
+    height: 755px;
 }
 
 /** utility classes **/
