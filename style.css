@@ -10,7 +10,72 @@
  Tags:         vg-trading, one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready
  Text Domain:  vgtrading
 */
+body {
+    font-family: Helvetica, monospace;
+    padding-top: 36px;
+    color: #000000;
+}
+H1, H2, H3, H4 {
+    font-family: "Baskerville Old Face", serif;
+    color: #000000;
+}
+p {
+    font-family: "Gill Sans MT", serif;
+    font-size: 1.3rem;
+    color: #707070;
+}
+#page-content {
+    min-height: 100vh;
+}
+.navbar-expand-md .navbar-collapse {
+    line-height: 2.3em;
+}
+nav.main-menu {
 
-#masthead {
-    position: fixed;
+}
+ul#menu-main-menu {
+    width: 100%;
+}
+nav.main-menu li {
+    font-size: 120%;
+}
+.navbar {
+    padding-bottom: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, .3);
+}
+.navbar-light .navbar-nav .active > .nav-link {
+    border-bottom: 5px solid red;
+}
+.navbar-brand {
+    margin-right: 50px;
+}
+.navbar-brand img {
+    height: 50px;
+}
+
+.red-divider-small {
+    border-bottom: 5px solid red;
+}
+
+footer {
+    margin: 20px 0 60px;
+}
+#copyright {
+    font-family: "Gill Sans MT", serif;
+    font-size: 1.2rem;
+    border-top: 1px solid silver;
+    padding-top: 30px;
+}
+
+/** utility classes **/
+.width50 {
+    width: 50%;
+}
+.top10 {
+    margin-top: 10px;
+}
+.top20 {
+    margin-top: 10px;
 }
