@@ -87,11 +87,14 @@ footer {
 }
 
 #container-social-media .vce-single-image-inner {
-    width: 30px !important;
+    width: 25px !important;
 }
 
 .container-client-logo .vce-single-image-inner {
-    width: 50px !important;
+    width: 100px !important;
+}
+#logo-tgb-brands .vce-single-image-inner {
+    width: 300px !important;
 }
 
 #container-products .vce-single-image-inner {
