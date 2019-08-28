@@ -108,6 +108,40 @@ footer {
     height: 755px;
 }
 
+#services-cost-row .vce-asset-background-simple-item {
+    background-position: 70%;
+}
+#content-cost-negotiations {
+    min-height: 300px;
+}
+
+#design-development-row .vce-asset-background-simple-item {
+    background-position: 30%;
+}
+#design-development {
+    min-height: 300px;
+}
+
+#production-quality-control-row .vce-asset-background-simple-item {
+    background-position: 70%;
+}
+#production-quality-control {
+    min-height: 300px;
+}
+
+#vendor-base-row .vce-asset-background-simple-item {
+    background-position: 30%;
+}
+#vendor-base {
+    min-height: 300px;
+}
+
+#shipping-logistics-image .vce-single-image-inner {
+    width: 250px !important;
+    margin-top: 50px;
+ }
+
+
 /** utility classes **/
 .width50 {
     width: 50%;
