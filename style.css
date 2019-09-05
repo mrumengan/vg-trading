@@ -10,8 +10,16 @@
  Tags:         vg-trading, one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready
  Text Domain:  vgtrading
 */
+@font-face{
+    font-family: "Gill Sans Light";
+    src: url("https://vg-trading.com/wp-content/themes/vg-trading/fonts/GillSans-Light-08.ttf");
+}
+@font-face{
+    font-family: "Gill Sans MT";
+    src: url("https://vg-trading.com/wp-content/themes/vg-trading/fonts/GillSans-01.ttf");
+}
 body {
-    font-family: Helvetica, monospace;
+    font-family: "Gill Sans Light", Helvetica, monospace;
     padding-top: 36px;
     color: #000000;
 }
@@ -19,11 +27,45 @@ H1, H2, H3, H4 {
     font-family: "Baskerville Old Face", serif;
     color: #000000;
 }
-p {
-    font-family: "Gill Sans", "Gill Sans MT", "Calibri", sans-serif;
-    font-size: 1.3rem;
-    color: #707070;
+H3 {
+    font-size: 3.6rem;
+    margin-bottom: 1.5rem;
 }
+.tagline p {
+    font-family: "Gill Sans MT", serif;
+}
+p, li {
+    font-family: "Gill Sans Light", "Gill Sans MT", "Calibri", sans-serif;
+    font-size: 1.3rem;
+    color: #000000;
+}
+a, a:hover {
+    color: #707070;
+    text-decoration: underline;
+}
+a.nav-link, a.nav-link:hover {
+    color: #707070;
+    text-decoration: none;
+}
+ul.red-bullet {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0 0;
+}
+ul.red-bullet li {
+    padding-left: 2em;
+    text-indent: -42px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: black;
+}
+ul.red-bullet li::before {
+    content: "• ";
+    color: red;
+    margin-right: 18px;
+    font-size: 1.8rem;
+}
+
 #page-content {
     min-height: 100vh;
 }
@@ -39,6 +81,7 @@ ul#menu-main-menu {
 nav.main-menu li {
     font-size: 120%;
 }
+
 .navbar {
     padding-bottom: 0;
 }
@@ -69,11 +112,16 @@ footer {
     padding-top: 30px;
 }
 
+#jumbotron .vce-row {
+    height: 100vh;
+}
 #main-video {
-    height: 550px;
+    /*height: 550px;*/
 }
 #btn-asc, #btn-is, #btn-ba {
     opacity: .8;
+    font-size: 1.2rem;
+    font-family: "Gill Sans Light", "Gill Sans MT", "Calibri", sans-serif;
 }
 .wpforms-submit-container {
     text-align: center;
@@ -86,8 +134,9 @@ footer {
     width: 100%;
 }
 
-#container-social-media .vce-single-image-inner {
-    width: 50px !important;
+#container-social-media .vce-single-image-inner,
+.container-social-media .vce-single-image-inner {
+    width: 30px !important;
 }
 
 #container-products .vce-single-image-inner {
@@ -97,8 +146,48 @@ footer {
     width: 75px !important;
 }
 
+#shipping-logistics-image .vce-single-image-inner {
+    width: 200px !important;
+    margin-top: 50px;
+}
+
 #container-gallery-title {
     height: 755px;
+}
+
+.gillsans-mt p {
+    font-family: "Gill Sans MT", serif;
+}
+.text-small1 p {
+    font-size: 1rem;
+}
+.font-black p {
+    color: black;
+}
+
+.row-with-icon,
+.row-with-icon.vce-row.vce-element--has-background {
+    height: 550px;
+}
+
+#services-research-row .vce-row.vce-element--has-background .vce-asset-background-simple-item {
+    background-position: 30% top;
+}
+#services-cost-row .vce-row.vce-element--has-background .vce-asset-background-simple-item {
+    background-position: 50% top;
+}
+#design-development-icon .vce-row.vce-element--has-background .vce-asset-background-simple-item {
+    background-position: 30% top;
+}
+#production-quality-control-row .vce-row.vce-element--has-background .vce-asset-background-simple-item {
+    background-position: 50% top;
+}
+#vendor-base-row .vce-row.vce-element--has-background .vce-asset-background-simple-item {
+    background-position: 30% top;
+}
+
+body.page-our-products p  {
+    font-size: 1em;
 }
 
 /** utility classes **/
