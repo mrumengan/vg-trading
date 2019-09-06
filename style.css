@@ -22,6 +22,7 @@ body {
     font-family: "Gill Sans Light", Helvetica, monospace;
     padding-top: 36px;
     color: #000000;
+    font-size: 1rem;
 }
 H1, H2, H3, H4 {
     font-family: "Baskerville Old Face", serif;
@@ -36,7 +37,7 @@ H3 {
 }
 p, li {
     font-family: "Gill Sans Light", "Gill Sans MT", "Calibri", sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: #000000;
 }
 a, a:hover {
@@ -56,7 +57,7 @@ ul.red-bullet li {
     padding-left: 2em;
     text-indent: -42px;
     margin-bottom: 10px;
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: black;
 }
 ul.red-bullet li::before {
@@ -159,7 +160,7 @@ footer {
     font-family: "Gill Sans MT", serif;
 }
 .text-small1 p {
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 .font-black p {
     color: black;
