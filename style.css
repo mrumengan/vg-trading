@@ -29,8 +29,8 @@ H1, H2, H3, H4 {
     color: #000000;
 }
 H3 {
-    font-size: 3.6rem;
-    margin-bottom: 1.5rem;
+    font-size: 3.2rem;
+    margin-bottom: 1.2rem;
 }
 .tagline p {
     font-family: "Gill Sans MT", serif;
@@ -51,17 +51,16 @@ a.nav-link, a.nav-link:hover {
 ul.red-bullet {
     list-style: none;
     padding: 0;
-    margin: 30px 0 0;
+    margin: 10px 0 0;
 }
 ul.red-bullet li {
     padding-left: 2em;
-    text-indent: -42px;
-    margin-bottom: 10px;
-    font-size: 1.3rem;
+    text-indent: -33px;
+    font-size: 1.15rem;
     color: black;
 }
 ul.red-bullet li::before {
-    content: "• ";
+    content: "•";
     color: red;
     margin-right: 18px;
     font-size: 1.8rem;
@@ -81,6 +80,7 @@ ul#menu-main-menu {
 }
 nav.main-menu li {
     font-size: 120%;
+    font-weight: bold;
 }
 
 .navbar {
@@ -120,9 +120,9 @@ footer {
     /*height: 550px;*/
 }
 #btn-asc, #btn-is, #btn-ba {
-    opacity: .8;
+    opacity: .9;
     font-size: 1.2rem;
-    font-family: "Gill Sans Light", "Gill Sans MT", "Calibri", sans-serif;
+    font-family: "Gill Sans MT", "Calibri", sans-serif;
 }
 .wpforms-submit-container {
     text-align: center;
@@ -153,22 +153,42 @@ footer {
 }
 
 #container-gallery-title {
-    height: 755px;
+}
+#gallery-big-image {
 }
 
+body.page-factory-gallery p {
+    font-size: 1.2rem;
+}
+.factory-picture .vce-single-image-inner {
+}
+
+body.page-contact-us h4 {
+    font-family: "Gill Sans MT";
+}
+
+.bakersville p {
+    font-family: "Baskerville Old Face", serif;
+}
 .gillsans-mt p {
     font-family: "Gill Sans MT", serif;
 }
 .text-small1 p {
     font-size: 1.3rem;
 }
+.text-small12 p {
+    font-size: 1.2rem;
+}
 .font-black p {
     color: black;
+}
+.font-color-lighter p {
+    color: #a0a0a0;
 }
 
 .row-with-icon,
 .row-with-icon.vce-row.vce-element--has-background {
-    height: 550px;
+    height: 600px;
 }
 
 #services-research-row .vce-row.vce-element--has-background .vce-asset-background-simple-item {
@@ -181,7 +201,7 @@ footer {
     background-position: 30% top;
 }
 #production-quality-control-row .vce-row.vce-element--has-background .vce-asset-background-simple-item {
-    background-position: 50% top;
+    background-position: 60% top;
 }
 #vendor-base-row .vce-row.vce-element--has-background .vce-asset-background-simple-item {
     background-position: 30% top;
@@ -190,6 +210,10 @@ footer {
 body.page-our-products p  {
     font-size: 1em;
 }
+body.page-our-services h3 {
+    font-size: 3em;
+}
+
 
 /** utility classes **/
 .width50 {
