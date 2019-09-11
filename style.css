@@ -154,17 +154,15 @@ footer {
 
 #container-gallery-title {
 }
-#gallery-big-image {
+#gallery-big-image > div {
+    height: 755px;
 }
 
-body.page-factory-gallery p {
-    font-size: 1.2rem;
-}
 .factory-picture .vce-single-image-inner {
 }
 
 body.page-contact-us h4 {
-    font-family: "Gill Sans MT";
+    font-family: "Gill Sans MT", "Times New Roman", sans-serif;
 }
 
 .bakersville p {
@@ -207,12 +205,17 @@ body.page-contact-us h4 {
     background-position: 30% top;
 }
 
-body.page-our-products p  {
+body.page-our-products .description p  {
     font-size: 1em;
 }
 body.page-our-services h3 {
     font-size: 3em;
 }
+
+body.page-factory-gallery .caption p {
+    font-size: 1.2rem;
+}
+
 
 
 /** utility classes **/
