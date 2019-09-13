@@ -15,6 +15,10 @@
     src: url("https://vg-trading.com/wp-content/themes/vg-trading/fonts/GillSans-Light-08.ttf");
 }
 @font-face{
+    font-family: "Baskerville";
+    src: url("https://vg-trading.com/wp-content/themes/vg-trading/fonts/baske1.ttf");
+}
+@font-face{
     font-family: "Gill Sans MT";
     src: url("https://vg-trading.com/wp-content/themes/vg-trading/fonts/GillSans-01.ttf");
 }
@@ -25,7 +29,7 @@ body {
     font-size: 1rem;
 }
 H1, H2, H3, H4 {
-    font-family: "Baskerville Old Face", serif;
+    font-family: "Baskerville", serif;
     color: #000000;
 }
 H3 {
@@ -161,12 +165,8 @@ footer {
 .factory-picture .vce-single-image-inner {
 }
 
-body.page-contact-us h4 {
-    font-family: "Gill Sans MT", "Times New Roman", sans-serif;
-}
-
 .bakersville p {
-    font-family: "Baskerville Old Face", serif;
+    font-family: "Baskerville", serif;
 }
 .gillsans-mt p {
     font-family: "Gill Sans MT", serif;
@@ -215,6 +215,11 @@ body.page-our-services h3 {
 body.page-factory-gallery .caption p {
     font-size: 1.2rem;
 }
+
+body.page-contact-us h4 {
+    font-family: "Baskerville", "Times New Roman", sans-serif;
+}
+
 
 
 
