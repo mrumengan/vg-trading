@@ -22,6 +22,10 @@
     font-family: "Gill Sans Bold";
     src: url("https://vg-trading.com/wp-content/themes/vg-trading/fonts/GillSans-Bold-02.ttf");
 }
+@font-face{
+    font-family: "Helvetica Bold";
+    src: url("https://vg-trading.com/wp-content/themes/vg-trading/fonts/Helvetica-Bold.woff");
+}
 @font-face {
     font-family: 'Baskerville Normal';
     font-style: normal;
@@ -226,7 +230,7 @@ body.page-contact-us #el-0f74f691 p {
     font-family: Helvetica !important;
 }
 body.page-contact-us h4 span {
-    font-family: "Helvetica";
+    font-family: "Helvetica Bold";
     font-size: 15pt;
     font-weight: bold !important;
 }
