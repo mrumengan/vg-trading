@@ -235,6 +235,9 @@ body.page-contact-us h4 span {
     font-weight: bold !important;
 }
 
+.ekko-lightbox-container .img-responsive {
+    width: 100%;
+}
 
 
 
